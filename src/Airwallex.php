@@ -4,7 +4,7 @@
  * @author    Andy <tech-agent2@ipasspay.com>
  * @copyright Ipasspay Inc
  */
-namespace Qeebey;
+namespace Ippcloud;
 
 class Airwallex {
 	/**

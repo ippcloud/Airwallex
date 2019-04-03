@@ -1,6 +1,6 @@
 <?php
 require_once 'vendor/autoload.php';
-use Qeebey\Airwallex;
+use Ippcloud\Airwallex;
 
 /***************************************************************************
  *	    																   *
@@ -8,12 +8,6 @@ use Qeebey\Airwallex;
  * 					                               						   *
  *                                              						   *
  ***************************************************************************/
-$file_path = 'license.png';
-$curlFile = new \CURLFile(realpath($file_path));
-//$curlFile->setMimeType('image/pdf');
-var_dump($curlFile->getMimeType());die;
-
-
 $airwallex = new Airwallex();
 
 $auth = $airwallex->authentication_login(); //output: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2MGE3YmQ2Ni0yNjY0LTQxYTctOWFhMS0zNmM1MWU0MzUyZTUiLCJzdWIiOiIxZTJjYThhNi0zMTRkLTRhZDEtYjJiNi1jYjI5MzFhNzRiNmEiLCJpYXQiOjE1NTM1MjQzMjUsImV4cCI6MTU1MzUyNjEyNX0.2rOAnUvoB3OQEVe8sGjASoqXXKPdzFAFNwT0USC9HMY

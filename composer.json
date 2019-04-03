@@ -1,5 +1,5 @@
 {
-    "name": "qeebey/airwallex",
+    "name": "ippcloud/airwallex",
     "description": "Airwallex API接口",
     "type": "library",
     "require": {
